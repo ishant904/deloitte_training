@@ -30,6 +30,10 @@ public class Employee extends Person{
 	public void setDept(Department dept) {
 		this.dept = dept;
 	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", dept=" + dept + ", name=" + name + ", ad=" + ad + "]";
+	}
 	
 	
 

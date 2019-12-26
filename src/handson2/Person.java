@@ -2,8 +2,8 @@ package handson2;
 
 public class Person {
 	
-	private String name;
-	private Address ad;
+	protected String name;
+	protected Address ad;
 	
 	public Person(String name) {
 		this.name=name;
