@@ -11,7 +11,7 @@ public class SavingsAccount extends Account {
 	
 	@Override
 	public void print(String s) {
-		super.print(s);
+		System.out.println("Printing saving account info---"+s);
 	}
 
 	@Override

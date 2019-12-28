@@ -27,7 +27,6 @@ public class AccountTest {
 		ac.withdraw(1000);
 		System.out.println(ac);
 		System.out.println("---------------");
-		System.out.println(ac);
 		System.out.println("---------------");
 		System.out.println(sa);
 		
