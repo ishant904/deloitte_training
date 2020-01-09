@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Enumeration;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
@@ -91,8 +92,19 @@ public class MyCollection {
 	//System.out.println(students);
 	
 	filter(students);
-
+	System.out.println("-----------------");
+	Hashtable<String,String> table = new Hashtable<>();
+	table.put("admin","admin123");
+	table.put("user","user123");
+	
+	Enumeration<String> enums= table.keys();
+	while(enums.hasMoreElements()) {
+		String key = enums.nextElement();
+		String val = table.get(key);
+		System.out.println(key + ":" + val);
 	}
+	
+}
 	
 	public static void filter(List<Student> a) {
 		
